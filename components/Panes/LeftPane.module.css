@@ -1,0 +1,25 @@
+.collapse :global(.ant-collapse-item) {
+  flex-shrink: 0;
+}
+
+.collapse :global(.ant-collapse-item-active) {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.collapse :global(.ant-collapse-header) {
+  flex-shrink: 0;
+}
+
+.collapse :global(.ant-collapse-content-active) {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.collapse :global(.ant-collapse-content-box) {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}

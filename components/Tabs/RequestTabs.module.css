@@ -1,0 +1,21 @@
+.tabs :global(.ant-tabs-nav) {
+  flex-shrink: 0;
+}
+
+.tabs :global(.ant-tabs-content-holder) {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.tabs :global(.ant-tabs-content) {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.tabs :global(.ant-tabs-tabpane-active) {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,15 @@
+.plus {
+  cursor: pointer;
+}
+
+.plus:hover {
+  color: rgb(22, 104, 220);
+}
+
+.delete {
+  cursor: pointer;
+}
+
+.delete:hover {
+  color: rgb(220, 68, 70);
+}
